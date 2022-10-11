@@ -696,7 +696,7 @@
   text-decoration: none;
 }
 
-.container-top .text-content h4 {
+.container-top .text-content #image-text {
   display: flex;
   margin-left: 180px;
 }
@@ -711,6 +711,14 @@
   text-decoration: none;
   color: rgb(233, 30, 99);
 }
+.container-bottom h5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+}
+
 .space-underneath-containers {
   background-color: rgb(229, 229, 229);
 }
@@ -723,6 +731,10 @@
   background-color: white;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
+}
+
+.text-content {
+  color: rgb(60, 72, 88);
 }
 
 .related-posts-container {
